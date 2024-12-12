@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home {
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+    height: 100vh;
+    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), url(https://i.imgur.com/TAn6FWz.jpg) center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  .photo {
+    width: 30%; /* Make the photo full width */
+    height: auto; /* Adjust the height automatically */
+    border-radius: 50%; /* Make the photo a circle */
+    object-fit: cover; /* Cover the entire circle area */
+    
+  }
+
+#home h1 {
+    font-size: 48px;
+}
+
+#home button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    background-color: #f7f7f7;
+    padding: 20px;
+        float: right;
+        width: 75%;
+        padding: 0 10px;
+    border: radius 1px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
